@@ -1,0 +1,24 @@
+.App {
+    height: 100%;
+}
+
+
+.save-button {
+    width: 60px;
+    border-radius: 12px;
+    padding: 8px;
+    border: none;
+    background-color: forestgreen;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    position: absolute;
+    top: 68px;
+    right: 10px;
+
+}
+
+.save-button:disabled {
+    opacity: 0.5;
+    cursor: inherit;
+}
